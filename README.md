@@ -40,11 +40,20 @@ A Snippet of the context based JSON file (the whole file can be found on Github-
 
 After creating the customized JSON-file its time to proprocess the data. In our case, we have to do ,,Word Stemming" and create a ,,Bag of Words".
 In the Natural Language Processing (NLP), ,,Word Stemming" is the process to reduce a word to its root/base. For example, the root of the word ,,cars" is ,,car" and the root of ,,selecting" is ,,select". 
-Since Machine Learning Algorithms do not understand textual data and require numerical input, we use the ,,Bag of Words" approach to meet this requirements so that texts can be converted to numeric vectors.
+Since Machine Learning Algorithms do not understand textual data and require numerical input, we use the ,,Bag of Words" approach to meet this requirements so that texts can be converted to numeric vectors. This ,,Bag of Words" will be the input for the input layer in the next step. 
 If a word is present in a given text, we get back a "1", otherwise we get back a "0". 
 The following simplified image illustrates the idea behind the ,,Bag of Words":
 
 <img src='./images/image2.png' width=700>
 
 
+## Part 3- Model Building
+
+After the preprocessing part is completed, we have to build and train our model. Here, we will use a neural network with two hidden layers. The goal of the network is to look on the bag of words and find out to what tag it belongs to (remember that we defined the tags in our json file). 
+
+The whole idea behind neural networks (base of deep learning) is to take a dataset (input), train themselves to recognize specific patterns in that data and to predict an output for a new (not familiar) data. Neural networks are made of several layers. 
+
+The input layer takes the input data, the output layer predicts the output and the hidden layers perform most of the computational tasks. A network has always one input layer, one outpur layer and n-hidden layers. There is no rule how many hidden layers are required, often it can be found out by ,,Try and Error". 
+
+<img src='./images/image3.png' width=700>
 
