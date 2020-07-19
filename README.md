@@ -72,4 +72,8 @@ Our person will do the following steps now:
 - Ask for home delivery
 - Say thank you and good bye
 
+You can click on the following picture and you will be redirected to GoogleDrive where you can take a look on the the ChatBot Interaction (make sure you watch the video with the highest resolution):
+
+
+[<img src='./images/image2.jpg' width=700>](https://drive.google.com/file/d/1y-jLXLJHp9mPUimebai33X_thwdBt5yu/view?usp=sharing)
 
