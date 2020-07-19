@@ -8,7 +8,7 @@
     + [Part 1- Creating a JSON-file](#part-1--creating-a-json-file)
     + [Part 2- Data Preprocessing](#part-2--Data-preprocessing)
     + [Part 3- Model Building](#part-3--model-building)
-    + [Part 4- ChatBot demonstration](#part-4--model-building)
+    + [Part 4- ChatBot dialogue demonstration](#part-4--chatbot-dialogue-demonstration)
 
 ### Credits: 
 A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science, Machine Learning, Statistics and a lot of other related topics for free.
@@ -71,3 +71,5 @@ Our person will do the following steps now:
 - Ask for location
 - Ask for home delivery
 - Say thank you and good bye
+
+
