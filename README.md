@@ -34,7 +34,7 @@ In the first step it is necessary to create a JSON file with a defined structure
 That JSON- file is the training data for our model. The more input the JSON file gets, the better and more complet the final ChatBot will be.
 
 A Snippet of the context based JSON file (the whole file can be found on Github- see below):
-<img src='./images/image1.PNG' width=700>
+<img src='./images/image1.PNG' width=1000>
 
 
 ## Part 2- Data Preprocessing
@@ -45,7 +45,7 @@ Since Machine Learning Algorithms do not understand textual data and require num
 If a word is present in a given text, we get back a "1", otherwise we get back a "0". 
 The following simplified image illustrates the idea behind the ,,Bag of Words":
 
-<img src='./images/image2.PNG' width=700>
+<img src='./images/image2.PNG' width=400>
 
 
 ## Part 3- Model Building
@@ -56,7 +56,7 @@ The whole idea behind neural networks (base of deep learning) is to take a datas
 
 The input layer takes the input data, the output layer predicts the output and the hidden layers perform most of the computational tasks. A network has always one input layer, one outpur layer and n-hidden layers. There is no rule how many hidden layers are required, often it can be found out by ,,Try and Error". 
 
-<img src='./images/image3.PNG' width=700>
+<img src='./images/image3.PNG' width=400>
 
 As already mentioned, after the user types something in, the input will be converted to a bag of words. Afterwards the model predicts what class the input most probably belongs to. Finally, a response from that class (see JSON-file) and will be picked and given back to the user as an answer.
 
@@ -75,5 +75,5 @@ Our person will do the following steps now:
 You can click on the following picture and you will be redirected to GoogleDrive where you can take a look on the the ChatBot Interaction (make sure you watch the video with the highest resolution):
 
 
-[<img src='./images/image2.jpg' width=200>](https://drive.google.com/file/d/1y-jLXLJHp9mPUimebai33X_thwdBt5yu/view?usp=sharing)
+[<img src='./images/image2.jpg' width=300>](https://drive.google.com/file/d/1y-jLXLJHp9mPUimebai33X_thwdBt5yu/view?usp=sharing)
 
