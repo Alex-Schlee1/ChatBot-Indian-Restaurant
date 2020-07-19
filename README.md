@@ -38,7 +38,7 @@ In the first step it is necessary to create a JSON file with a defined structure
 That JSON- file is the training data for our model. The more input the JSON file gets, the better and more complet the final ChatBot will be.
 
 A Snippet of the context based JSON file (the whole file can be found on Github- see below):
-<img src='./images/image1.PNG' width=1100>
+<img src='./images/image1.PNG' width=1300>
 
 
 ## Part 2- Data Preprocessing
