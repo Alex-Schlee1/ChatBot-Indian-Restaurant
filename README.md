@@ -7,7 +7,8 @@
     + [Code and Resources](#code-and-resources)
     + [Part 1- Creating a JSON-file](#part-1--creating-a-json-file)
     + [Part 2- Data Preprocessing](#part-2--Data-preprocessing)
-    + [Part 3- Model Limitations and Conclusion](#part-3--model-limitations-and-conclusion)
+    + [Part 3- Model Building](#part-3--model-building)
+    + [Part 4- ChatBot demonstration](#part-4--model-building)
 
 ### Credits: 
 A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science, Machine Learning, Statistics and a lot of other related topics for free.
@@ -57,3 +58,16 @@ The input layer takes the input data, the output layer predicts the output and t
 
 <img src='./images/image3.png' width=700>
 
+As already mentioned, after the user types something in, the input will be converted to a bag of words. Afterwards the model predicts what class the input most probably belongs to. Finally, a response from that class (see JSON-file) and will be picked and given back to the user as an answer.
+
+## Part 4- ChatBot dialogue demonstration
+Let's build a fictive scenario. Image there is a customer who is new in Frankfurt, Germany and wants to eat at an Indian Restaurant. Since that person does not know which restaurant is the best one, he decides to do a Google search. Finally that person is directed to a Homepage of an Indian resturant which opened a few weeks ago. That website has a chatbot which pops up when the site opens.
+Our person will do the following steps now:
+
+- Greeting the bot
+- Ask when the restaurant is open
+- Ask for food recommendation
+- Make sure card payments are accepted
+- Ask for location
+- Ask for home delivery
+- Say thank you and good bye
