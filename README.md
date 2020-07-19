@@ -10,6 +10,9 @@
     + [Part 3- Model Building](#part-3--model-building)
     + [Part 4- ChatBot Dialogue Demonstration](#part-4--chatbot-dialogue-demonstration)
 
+<img src='./images/image1.jpg' width=700>
+    
+
 ### Credits: 
 A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science, Machine Learning, Statistics and a lot of other related topics for free.
 
@@ -25,6 +28,7 @@ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6Bh
 * Packages: Numpy, NLTK, Tensorflow, Tflearn
 
 
+
 ## Part 1- Creating a JSON-file
 In the first step it is necessary to create a JSON file with a defined structure:
 
@@ -34,7 +38,7 @@ In the first step it is necessary to create a JSON file with a defined structure
 That JSON- file is the training data for our model. The more input the JSON file gets, the better and more complet the final ChatBot will be.
 
 A Snippet of the context based JSON file (the whole file can be found on Github- see below):
-<img src='./images/image1.PNG' width=1000>
+<img src='./images/image1.PNG' width=1100>
 
 
 ## Part 2- Data Preprocessing
@@ -48,6 +52,7 @@ The following simplified image illustrates the idea behind the ,,Bag of Words":
 <img src='./images/image2.PNG' width=400>
 
 
+
 ## Part 3- Model Building
 
 After the preprocessing part is completed, we have to build and train our model. Here, we will use a neural network with two hidden layers. The goal of the network is to look on the bag of words and find out to what tag it belongs to (remember that we defined the tags in our json file). 
@@ -56,9 +61,10 @@ The whole idea behind neural networks (base of deep learning) is to take a datas
 
 The input layer takes the input data, the output layer predicts the output and the hidden layers perform most of the computational tasks. A network has always one input layer, one outpur layer and n-hidden layers. There is no rule how many hidden layers are required, often it can be found out by ,,Try and Error". 
 
-<img src='./images/image3.PNG' width=400>
+<img src='./images/image3.PNG' width=500>
 
 As already mentioned, after the user types something in, the input will be converted to a bag of words. Afterwards the model predicts what class the input most probably belongs to. Finally, a response from that class (see JSON-file) and will be picked and given back to the user as an answer.
+
 
 ## Part 4- ChatBot Dialogue Demonstration
 Let's build a fictive scenario. Image there is a customer who is new in Frankfurt, Germany and wants to eat at an Indian Restaurant. Since that person does not know which restaurant is the best one, he decides to do a Google search. Finally that person is directed to a Homepage of an Indian resturant which opened a few weeks ago. That website has a chatbot which pops up when the site opens.
